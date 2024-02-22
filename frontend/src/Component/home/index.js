@@ -4,7 +4,6 @@ const Home = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    console.log("NIHTIN");
     document.title= `count: ${count}`;
   });
 
